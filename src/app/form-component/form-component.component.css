@@ -1,0 +1,30 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+}
+form input {
+  padding: 8px;
+  font-size: 6px;
+}
+form textarea {
+  width: 100%;
+  height: 100px;
+}
+form #submitBtn {
+  background-color: rgb(170, 159, 159);
+  width: 120px;
+  height: 35px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  float: right;
+}
+input::placeholder{font-size: 15px;}

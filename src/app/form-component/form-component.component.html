@@ -1,0 +1,18 @@
+<form (ngSubmit)="onSubmit()">
+    <div>
+        <label>Name</label>
+        <input type=" text" placeholder="name" name="name" [(ngModel)]="model.name" />
+    </div>
+    <div>
+        <label>Author</label>
+        <input type="text" placeholder="author" name="author" [(ngModel)]="model.author" />
+    </div>
+    <div>
+        <label>Description</label>
+        <textarea placeholder="Description" name="des" [(ngModel)]="model.des">
+        </textarea>
+    </div>
+    <input type="submit" id="submitBtn" value="Save" />
+</form>
+<h2>My Model</h2>
+<p>{{currentBook}}</p>
